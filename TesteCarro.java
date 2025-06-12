@@ -1,13 +1,34 @@
-package aula1;
+package com.thanderson.cursojava.aula28.labs;
 
-public class TesteCarro {
+import java.util.Scanner;
 
-	public TesteCarro() {
-		// TODO Auto-generated constructor stub
-	}
+public class TesteLampada {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Lampada lampada =  new Lampada();
+		
+		lampada.ligada = true;
+		lampada.ligada = false;
+		
+		lampada.ligar();
+		
+		lampada.mostrarEstado();
+		
+		lampada.mudarEstado();
+		
+		lampada.desligar();
+		
+		lampada.mostrarEstado();
+
+		
+		
+		lampada.mudarEstado();
+	
+
+		
+
+		
+	
 
 	}
 
